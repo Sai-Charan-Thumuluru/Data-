@@ -10,3 +10,8 @@ Binary search algorithm takes sorted array and an item as input and returns the 
 5. Else if guess is higher than the item then move the highest number behind to middle number which is ```h = m -1```.
 6. Repeat(Use the truth that ```l``` is always less than or equal to ```h``` to repeat) the steps till the target position of item is returned.
 7. Else return nothing and stop.  
+
+## Time Complexity
+*Best Case*: This occur when item is in the middle of the array and guessed at the first comparision. So, time complexity is ```O(1)```.
+
+*Worst Case*: This occur when the item is at the beginning or end of the array. To find the result the array has to be divided into 2 halves after each comparision till the required position of item is returned. If there are ```n``` elements in the array and number of comparisions is ```k``` then time complexity is <code>O(log<sub>2</sub>n)</code>(<code>n / 2<sup>k</sup> = 1</code> hence <code>k = log<sub>2</sub>n</code>).
