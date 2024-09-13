@@ -5,7 +5,7 @@ Selection sort algorithm takes unsorted array as input and returns sorted array.
 1. Starts with slection of smallest element in the array and stores its index.
    Steps to find index of smallest element given below,
     1. Let first element of the array as smallest element.
-    2. Iterate through the array from second element and if an element is less than the last smallest element store it a the new
+    2. Iterate through the array from second element and if an element is less than the last smallest element store it as the new
        smallest element.
     3. Finally, end of the iteration return the index of smallest element in the array.
 2. Once the index of smallest element is found, remove it from the unsorted array and add it to new sorted array.
