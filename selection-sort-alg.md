@@ -13,9 +13,10 @@ Selection sort algorithm takes unsorted array as input and returns sorted array.
 4. Finally return the sorted array.
 
 ## Time Complexity
-*Best Case*: Best case would be the case when sorted array is provided as input. if ```n``` is the size of array, 
-as <code>n<sup>2</sup></code> operations takes place. 
+*Best Case*: O(<code>n<sup>2</sup></code>) (Best case would be the case when sorted array is provided as input.)  
+*Worst Case*: O(<code>n<sup>2</sup></code>)
 
-*Worst Case*:
+If ```n``` is the size of array, 
+as <code>n<sup>2</sup></code> operations takes place for sure in each case time complexity is same. 
 
     
